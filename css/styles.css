@@ -1,3 +1,6 @@
-body {
-    background-color: red;
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    color: firebrick;
 }
