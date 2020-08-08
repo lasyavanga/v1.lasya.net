@@ -2,6 +2,16 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     background-color:darkturquoise;
 }
-h1 {
-    color: firebrick;
+h1{
+    color:firebrick;
+}
+img {
+    border:7px ridge slateblue;
+}
+#photos p {
+    float: left;
+    margin-right: 10px;
+}
+#photos p img {
+    height: 200px;
 }
