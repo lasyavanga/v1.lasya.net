@@ -6,8 +6,9 @@ h1{
     color:firebrick;
     text-shadow: 2px 5px 3px gray ;
     font-weight: bolder;
-    font-family: ;
     font-family: 'Lobster Two', cursive;
+    text-align:center;
+    font-size: 40px;
 }
 img {
     border: 8px ridge violet;
