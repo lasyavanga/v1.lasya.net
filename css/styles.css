@@ -1,12 +1,16 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
-    background-color:darkturquoise;
+    background-color:#bac;
 }
 h1{
     color:firebrick;
+    text-shadow: 2px 5px 3px gray ;
+    font-weight: bolder;
+    font-family: ;
+    font-family: 'Lobster Two', cursive;
 }
 img {
-    border:7px ridge slateblue;
+    border: 8px ridge violet;
 }
 #photos p {
     float: left;
