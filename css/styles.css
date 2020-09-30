@@ -1,12 +1,12 @@
 html {
-    background-image: url(../patterns/watercolor.png);
+    background-image: url(../patterns/y-so-serious-white.png);
 }
 body {
     font-family: "Roboto Condensed", sans-serif;
-    /* background-color: #bac; */
+    /* background-color: rgb(250, 150, 190);xz */
 }
 h1 {
-    color: firebrick;
+    color: cornflowerblue;
     text-shadow: 2px 5px 3px gray;
     font-weight: bolder;
     font-family: "Lobster Two", cursive;
@@ -22,4 +22,7 @@ img {
 }
 #photos p img {
     height: 200px;
+}
+#content {
+    color: purple;
 }
