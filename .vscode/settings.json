@@ -3,5 +3,6 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.multiRootWorkspaceName": "Lasya.net"
 }
