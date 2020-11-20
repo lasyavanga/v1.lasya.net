@@ -6,10 +6,10 @@ body {
     /* background-color: rgb(250, 150, 190);xz */
 }
 h1 {
-    color: cornflowerblue;
+    color: navy;
     text-shadow: 2px 5px 3px gray;
     font-weight: bolder;
-    font-family: "Lobster Two", cursive;
+    font-family: "Roboto Condensed", cursive;
     text-align: center;
     font-size: 40px;
 }
@@ -25,4 +25,11 @@ img {
 }
 #content {
     color: purple;
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
 }
