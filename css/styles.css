@@ -1,3 +1,6 @@
+#Hot{
+    background-color:white ;
+}
 html {
     background-image: url(../patterns/y-so-serious-white.png);
 }
@@ -38,4 +41,12 @@ td {
 table {
     margin: auto;
     border-collapse: collapse;
+}
+
+.even {
+    background-color: #ccc;
+}
+
+.odd {
+    background-color: #eee;
 }
