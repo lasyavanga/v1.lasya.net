@@ -1,9 +1,11 @@
 #Hot{
     background-color:white ;
 }
+
 html {
     background-image: url(../patterns/y-so-serious-white.png);
 }
+
 body {
     font-family: "Roboto Condensed", sans-serif;
     /* background-color: rgb(250, 150, 190);xz */
@@ -43,10 +45,3 @@ table {
     border-collapse: collapse;
 }
 
-.even {
-    background-color: #ccc;
-}
-
-.odd {
-    background-color: #eee;
-}
