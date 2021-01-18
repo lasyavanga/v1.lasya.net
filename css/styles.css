@@ -1,5 +1,5 @@
-#Hot{
-    background-color:white ;
+#Hot {
+    background-color: white;
 }
 
 html {
@@ -11,7 +11,7 @@ body {
     /* background-color: rgb(250, 150, 190);xz */
 }
 h1 {
-    color: navy;
+    color: firebrick;
     text-shadow: 2px 5px 3px gray;
     font-weight: bolder;
     font-family: "Roboto Condensed", cursive;
@@ -45,3 +45,28 @@ table {
     border-collapse: collapse;
 }
 
+.nav {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.nav li {
+    padding: 0px 3px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.nav a {
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 4px;
+    color: rgb(182, 16, 99);
+    display: block;
+    border-radius: 20%;
+}
+
+.nav a:hover {
+    background-color: rgb(182, 16, 99);
+    color: lightblue;
+}
