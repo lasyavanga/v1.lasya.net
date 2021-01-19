@@ -49,6 +49,8 @@ table {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
+    padding: 0;
+    text-align: center;
 }
 
 .nav li {
@@ -62,11 +64,31 @@ table {
     background-color: lightblue;
     padding: 4px;
     color: rgb(182, 16, 99);
-    display: block;
-    border-radius: 20%;
+    display: inline;
+    border-radius: 8px;
 }
 
 .nav a:hover {
     background-color: rgb(182, 16, 99);
     color: lightblue;
+}
+
+div {
+    color: indigo;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+span {
+    color: purple;
+}
+
+li {
+    font-size: 17px;
+}
+p {
+    font-size: 18px;
 }
