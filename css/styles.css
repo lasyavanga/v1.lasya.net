@@ -68,7 +68,9 @@ table {
     border-radius: 8px;
 }
 
-.nav a:hover {
+.nav a:hover,
+a:active,
+a:focus {
     background-color: rgb(182, 16, 99);
     color: lightblue;
 }
@@ -77,7 +79,10 @@ div {
     color: indigo;
     text-align: center;
 }
-
+a:focus {
+    border: 2px solid black;
+    margin: 0px;
+}
 a {
     text-align: center;
 }
@@ -88,6 +93,7 @@ span {
 
 li {
     font-size: 17px;
+    margin: 10px 10px;
 }
 p {
     font-size: 18px;
