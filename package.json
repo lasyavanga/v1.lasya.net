@@ -1,22 +1,26 @@
 {
-  "name": "lasya.net",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sasidhar/Lasya.net.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sasidhar/Lasya.net/issues"
-  },
-  "homepage": "https://github.com/sasidhar/Lasya.net#readme",
-  "dependencies": {
-    "imagemin-cli": "^6.0.0"
-  }
+    "name": "lasya.net",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "remove-compressed-drawings-folder": "rm -rf compressed-drawings",
+        "compress-images": "imagemin scanned-high-quality-drawings/* --out-dir=compressed-drawings --plugin=mozjpeg",
+        "prepare-images": "npm run remove-compressed-drawings-folder && npm run compress-images"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sasidhar/Lasya.net.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sasidhar/Lasya.net/issues"
+    },
+    "homepage": "https://github.com/sasidhar/Lasya.net#readme",
+    "dependencies": {
+        "imagemin-cli": "^6.0.0",
+        "imagemin-mozjpeg": "^9.0.0"
+    }
 }
