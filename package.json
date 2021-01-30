@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sasidhar/Lasya.net/issues"
   },
-  "homepage": "https://github.com/sasidhar/Lasya.net#readme"
+  "homepage": "https://github.com/sasidhar/Lasya.net#readme",
+  "dependencies": {
+    "imagemin-cli": "^6.0.0"
+  }
 }
