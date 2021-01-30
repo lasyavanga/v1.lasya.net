@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "remove-compressed-drawings-folder": "rm -rf compressed-drawings",
-        "compress-images": "imagemin scanned-high-quality-drawings/* --out-dir=compressed-drawings --plugin=mozjpeg",
+        "compress-images": "imagemin cropped-high-quality-drawings/* --out-dir=compressed-drawings --plugin=mozjpeg",
         "prepare-images": "npm run remove-compressed-drawings-folder && npm run compress-images"
     },
     "repository": {
