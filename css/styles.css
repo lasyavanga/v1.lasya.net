@@ -4,11 +4,23 @@
 
 html {
     background-image: url(../patterns/y-so-serious-white.png);
+    padding: 0;
+    padding-left: 0px;
 }
-
+.head {
+    background-image: linear-gradient(
+            rgba(170, 170, 255, 0.596),
+            rgba(208, 143, 255, 0.61),
+            rgba(255, 99, 255, 0.479)
+        ),
+        url(../patterns/pixel-heart.png);
+    padding: 10px;
+    margin: 0;
+}
 body {
     font-family: "Roboto Condensed", sans-serif;
     /* background-color: rgb(250, 150, 190);xz */
+    margin: 0;
 }
 h1 {
     color: firebrick;
@@ -17,6 +29,7 @@ h1 {
     font-family: "Roboto Condensed", cursive;
     text-align: center;
     font-size: 40px;
+    margin: 0;
 }
 img {
     border: 8px ridge violet;
@@ -59,20 +72,26 @@ table {
     border-radius: 8px;
 }
 
+#contact-link {
+    padding: 15px;
+}
+
 .nav a {
     text-decoration: none;
     background-color: lightblue;
-    padding: 4px;
+    padding: 4px 8px;
     color: rgb(182, 16, 99);
     display: inline;
     border-radius: 8px;
+    transition: all 0.7s ease;
 }
 
 .nav a:hover,
 a:active,
 a:focus {
-    background-color: rgb(182, 16, 99);
+    background-color: purple;
     color: lightblue;
+    letter-spacing: 5px;
 }
 
 div {
@@ -85,6 +104,7 @@ a:focus {
 }
 a {
     text-align: center;
+    font-weight: bold;
 }
 
 span {
@@ -97,4 +117,5 @@ li {
 }
 p {
     font-size: 18px;
+    padding: 15px;
 }
