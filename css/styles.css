@@ -32,13 +32,15 @@ h1 {
     margin: 0;
 }
 img {
-    border: 8px ridge violet;
+    border: 3px solid navy;
 }
-#photos p {
+#photos p,
+#drawings {
     float: left;
     margin-right: 10px;
 }
-#photos p img {
+#photos p img,
+#drawings {
     height: 200px;
 }
 #content {
@@ -118,4 +120,26 @@ li {
 p {
     font-size: 18px;
     padding: 15px;
+}
+
+img:hover {
+    animation: flip-image 1s linear;
+}
+
+@keyframes flip-image {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(160deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+h2 {
+    color: blue;
+    font-size: 25px;
+    font-family: "Acme", sans-serif;
 }
