@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Square Art</title>
+        <style>
+            * {
+                color: white;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            body {
+                background-image: url(../patterns/moroccan-flower-dark.png);
+            }
+
+            #big-square {
+                height: 400px;
+                position: relative;
+                width: 400px;
+                border: 2px solid white;
+            }
+
+            .tiny-square {
+                height: 70px;
+                position: absolute;
+                border: 2px solid white;
+                width: 70px;
+            }
+
+            #one {
+                left: 0;
+                border-left: none;
+                border-top: none;
+                top: 0;
+            }
+
+            #two {
+                border-left: none;
+                left: 0;
+                top: 165px;
+            }
+
+            #three {
+                border-left: none;
+                border-bottom: none;
+                left: 0;
+                bottom: 0;
+            }
+
+            #four {
+                top: 0;
+                left: 165px;
+                border-top: none;
+            }
+
+            #five {
+                top: 165px;
+                left: 165px;
+            }
+
+            #six {
+                bottom: 0;
+                left: 165px;
+                border-bottom: none;
+            }
+
+            #seven {
+                top: 0;
+                right: 0;
+                border-right: none;
+                border-top: none;
+            }
+
+            #eight {
+                border-right: none;
+                right: 0;
+                top: 165px;
+            }
+
+            #nine {
+                border-bottom: none;
+                border-right: none;
+                bottom: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Square Art</h1>
+        <div id="big-square">
+            <div class="tiny-square" id="one"></div>
+            <div class="tiny-square" id="two"></div>
+            <div class="tiny-square" id="three"></div>
+            <div class="tiny-square" id="four"></div>
+            <div class="tiny-square" id="five"></div>
+            <div class="tiny-square" id="six"></div>
+            <div class="tiny-square" id="seven"></div>
+            <div class="tiny-square" id="eight"></div>
+            <div class="tiny-square" id="nine"></div>
+        </div>
+    </body>
+</html>
