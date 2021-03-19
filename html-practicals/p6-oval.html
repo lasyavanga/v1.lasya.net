@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            #big {
+                position: relative;
+                width: 400px;
+                height: 400px;
+            }
+            #big:hover {
+                animation: div-turning 2s infinite linear;
+            }
+            .oval {
+                width: 200px;
+                height: 20px;
+                border: 1px solid black;
+                border-radius: 100%;
+                position: absolute;
+                top: 11rem;
+                left: 93.55px;
+            }
+            #two {
+                transform: rotate(15deg);
+            }
+            #three {
+                transform: rotate(30deg);
+            }
+            #four {
+                transform: rotate(45deg);
+            }
+            #five {
+                transform: rotate(60deg);
+            }
+            #six {
+                transform: rotate(75deg);
+            }
+            #seven {
+                transform: rotate(90deg);
+            }
+            #eight {
+                transform: rotate(105deg);
+            }
+            #nine {
+                transform: rotate(120deg);
+            }
+            #ten {
+                transform: rotate(135deg);
+            }
+            #eleven {
+                transform: rotate(150deg);
+            }
+            #twelve {
+                transform: rotate(165deg);
+            }
+            @keyframes div-turning {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(180deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Oval Art</h1>
+        <div id="big">
+            <div class="oval" id="one"></div>
+            <div class="oval" id="two"></div>
+            <div class="oval" id="three"></div>
+            <div class="oval" id="four"></div>
+            <div class="oval" id="five"></div>
+            <div class="oval" id="six"></div>
+            <div class="oval" id="seven"></div>
+            <div class="oval" id="eight"></div>
+            <div class="oval" id="nine"></div>
+            <div class="oval" id="ten"></div>
+            <div class="oval" id="eleven"></div>
+            <div class="oval" id="twelve"></div>
+        </div>
+    </body>
+</html>
