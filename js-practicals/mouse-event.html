@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mouse Events</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            h1 {
+                border: 1px solid red;
+            }
+            body {
+                height: 100vh;
+                width: 100vw;
+                background-color: #cec;
+            }
+            #my-pointer {
+                width: 100px;
+                height: 100px;
+                background-color: #cc9;
+                border: 1px solid red;
+                position: fixed;
+                transform: translate(-50px, -50px);
+                transform-origin: 0 0;
+                animation: pointerRotateAnim 3s infinite linear;
+            }
+            @keyframes pointerRotateAnim {
+                0% {
+                    transform: rotate(0deg) translate(-50px, -50px);
+                }
+                100% {
+                    transform: rotate(360deg) translate(-50px, -50px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="h1">Mouse Events</h1>
+        <div id="my-pointer"></div>
+        <script>
+            const h1Element = document.getElementsByTagName("body")[0];
+            const myPointer = document.getElementById("my-pointer");
+            const myHandler = function (data) {
+                // console.log("Inside Hanlder");
+                // console.log(`x: ${data.x}, y: ${data.y}`);
+                myPointer.style.left = `${data.x}px`;
+                myPointer.style.top = `${data.y}px`;
+            };
+            h1Element.addEventListener("mousemove", myHandler);
+        </script>
+    </body>
+</html>
