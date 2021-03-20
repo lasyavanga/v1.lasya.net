@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Box Magic</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            div {
+                border: 1px solid black;
+            }
+            #big {
+                top: 30px;
+                left: 30px;
+                width: 498px;
+                height: 298px;
+                position: relative;
+            }
+            #two:hover {
+                animation: rotating-second 2s infinite linear;
+            }
+            #one:hover {
+                animation: div-turning 2s infinite linear;
+            }
+            .small {
+                width: 98px;
+                height: 98px;
+                position: absolute;
+                top: 100px;
+            }
+            #big:hover {
+                animation: div-turning, rotating-second 2s infinite linear;
+                overflow: hidden;
+            }
+            #one {
+                left: 100px;
+                overflow: hidden;
+            }
+            #two {
+                right: 100px;
+            }
+            @keyframes anythidh {
+                100% {
+                    animation: div-turning 2s infinite linear;
+                    animation: rotating-second 2s infinite linear;
+                }
+            }
+            @keyframes div-turning {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(180deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes rotating-second {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(-180deg);
+                }
+                100% {
+                    transform: rotate(-360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Box Magic</h1>
+        <div id="big">
+            <div class="small" id="one"></div>
+            <div class="small" id="two"></div>
+        </div>
+    </body>
+</html>
