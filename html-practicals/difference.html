@@ -10,33 +10,44 @@
             * {
                 font-family: Ubuntu;
             }
-            #none:hover {
-                display: none;
-                border: 1px solid black;
+            h1 {
+                background-color: rgb(49, 49, 49);
+                color: rgb(187, 187, 187);
+                border: 5px solid grey;
+                padding: 8px;
+            }
+
+            .same {
                 width: 100px;
                 height: 100px;
+                border: 1px solid black;
+                padding: 0px;
+            }
+            #none:hover {
+                display: none;
+                background: green;
             }
             #hidden:hover {
                 visibility: hidden;
-                border: 1px solid black;
-                width: 100px;
-                height: 100px;
+                background: yellow;
             }
             span {
                 font-size: 40px;
             }
-            div {
-                float: left;
-                margin: 3px;
-                border: 1px solid thistle;
-            }
         </style>
     </head>
-        <body>
-            <h1>Difference Between display:none; And visibility:hidden;</h1>
-            <p>Hover Over The Following Box To Change It To display none</p>
-            <div id="none">This is the box<div>
-            <p>Hover Over The Following Box To Change It To visibility hidden</p>
-            <div id="hidden">This is The BOX</div>
-        </body>
+    <body>
+        <h1>Difference Between display:none; And visibility:hidden;</h1>
+        <div>
+            <p>Hover Over The Following Box To Change It To Display None</p>
+            <div class="same" id="none"></div>
+        </div>
+        <div>
+            <p>
+                Hover Over The Following Box To Change It To Visibility Hidden
+            </p>
+            <div class="same" id="hidden"></div>
+        </div>
+        <p>Just to see visibility hidden</p>
+    </body>
 </html>
