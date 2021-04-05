@@ -1,0 +1,8 @@
+#drawings {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+p {
+    padding: 0px 15px;
+}
