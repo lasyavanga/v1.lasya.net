@@ -31,9 +31,6 @@ h1 {
     font-size: 40px;
     margin: 0;
 }
-img {
-    border: 3px solid navy;
-}
 #photos p {
     float: left;
     margin-right: 10px;
@@ -120,11 +117,15 @@ p {
     padding: 15px;
 }
 
-img:hover {
-    animation: flip-image 1s linear;
+img {
+    border: 3px solid navy;
+    /* transition: all 0.5s ease-in; */
 }
+/* img:hover {
+    border: none;
+} */
 
-@keyframes flip-image {
+/* @keyframes flip-image {
     0% {
         transform: rotateY(0deg);
     }
@@ -134,7 +135,7 @@ img:hover {
     100% {
         transform: rotateY(360deg);
     }
-}
+} */
 
 h2 {
     color: blue;
