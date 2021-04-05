@@ -34,18 +34,14 @@ h1 {
 img {
     border: 3px solid navy;
 }
-#photos p,
-#drawings {
+#photos p {
     float: left;
     margin-right: 10px;
 }
-#photos p img,
-#drawings {
+#photos p img {
     height: 200px;
 }
-#content {
-    color: purple;
-}
+
 table,
 tr,
 th,
@@ -89,13 +85,15 @@ table {
 }
 
 .nav a:hover,
-a:active,
-a:focus {
+.nav a:active,
+.nav a:focus {
     background-color: purple;
     color: lightblue;
     letter-spacing: 5px;
 }
-
+.git-p {
+    text-indent: 45px;
+}
 div {
     color: indigo;
     text-align: center;
