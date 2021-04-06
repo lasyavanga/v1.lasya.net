@@ -6,3 +6,18 @@
 p {
     padding: 0px 15px;
 }
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    display: table;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 20px;
+}
