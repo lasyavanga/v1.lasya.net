@@ -261,8 +261,6 @@ const drawings = [
     { src: "0071-city.jpg", alt: "City", caption: "City" },
 ];
 
-console.log(drawings);
-
 for (let i = 0; i < drawings.length; i++) {
     const container = document.getElementById("container");
 
