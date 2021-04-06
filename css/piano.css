@@ -1,14 +1,14 @@
-#piano {
+#container {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
 }
 
-#piano li {
+#container figure {
     display: table;
 }
 
-#piano li figcaption {
+#container figcaption {
     display: table-caption;
     caption-side: bottom;
     text-align: center;

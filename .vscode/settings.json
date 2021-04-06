@@ -3,6 +3,5 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
-    "files.autoSave": "afterDelay",
     "liveServer.settings.port": 5501
 }
