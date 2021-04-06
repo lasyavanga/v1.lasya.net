@@ -4,7 +4,5 @@
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
     "files.autoSave": "afterDelay",
-    "liveServer.settings.multiRootWorkspaceName": "Lasya.net",
-    "editor.cursorStyle": "line",
     "liveServer.settings.port": 5501
 }
