@@ -20,6 +20,12 @@ const videos = [
     { link: "EstBVCncB9g", caption: "Whishing Well" },
     { link: "3Uq62Eqtjlk", caption: "Raindrops" },
     { link: "N5KF2e3SEAE", caption: "Love Somebody" },
+    { link: "euz94nvXRW0", caption: "It's Halloween"},
+    { link: "lf3LjDSquno", caption: "Just a Second!"},
+    { link: "_pOMowJBjhk", caption: "Sailing"},
+    { link: "g0w4u4B9Rzw", caption: "Ballons"},
+    { link: "uCWzVeJHIVs", caption: "Sonatina"},
+
 ];
 
 // Get reference to the container
