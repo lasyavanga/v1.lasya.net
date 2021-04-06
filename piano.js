@@ -16,16 +16,15 @@ const videos = [
     { link: "jqff9h6_W9A", caption: "Waltz Time" },
     { link: "zYgLZX8Pefc", caption: "Indians" },
     { link: "OhQxhhw5Kvs", caption: "A Friend Like You" },
-    { link: "8BdN8uTzLxk", caption: "Good King Wenceslas" },
+    { link: "o4R_ak7TTf0", caption: "Good King Wenceslas" },
     { link: "EstBVCncB9g", caption: "Whishing Well" },
     { link: "3Uq62Eqtjlk", caption: "Raindrops" },
     { link: "N5KF2e3SEAE", caption: "Love Somebody" },
-    { link: "euz94nvXRW0", caption: "It's Halloween"},
-    { link: "lf3LjDSquno", caption: "Just a Second!"},
-    { link: "_pOMowJBjhk", caption: "Sailing"},
-    { link: "g0w4u4B9Rzw", caption: "Ballons"},
-    { link: "uCWzVeJHIVs", caption: "Sonatina"},
-
+    { link: "euz94nvXRW0", caption: "It's Halloween" },
+    { link: "lf3LjDSquno", caption: "Just a Second!" },
+    { link: "_pOMowJBjhk", caption: "Sailing" },
+    { link: "g0w4u4B9Rzw", caption: "Ballons" },
+    { link: "uCWzVeJHIVs", caption: "Sonatina" },
 ];
 
 // Get reference to the container
