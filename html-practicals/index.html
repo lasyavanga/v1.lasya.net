@@ -100,6 +100,19 @@
                 padding: 15px;
             }
 
+            .nav-practicals a {
+                text-decoration: none;
+                background-color: lightblue;
+                padding: 4px 8px;
+                color: rgb(182, 16, 99);
+                display: inline;
+                border-radius: 8px;
+                transition: all 0.7s ease;
+            }
+
+            .nav-practicals li {
+                list-style-type: none;
+            }
             .nav a {
                 text-decoration: none;
                 background-color: lightblue;
@@ -120,9 +133,9 @@
                 margin-bottom: 15px;
             }
 
-            .nav a:hover,
-            a:active,
-            a:focus {
+            .nav-practicals a:hover,
+            .nav-practicals a:active,
+            .nav-practicals a:focus {
                 background-color: purple;
                 color: lightblue;
                 letter-spacing: 5px;
@@ -182,7 +195,7 @@
             <h1>Lasya Vanga's Website</h1>
             <h2>HTML PRACTICALS</h2>
         </div>
-        <ul class="nav" id="difke">
+        <ul class="nav" id="nav" id="difke">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../html-practicals/index.html">Html Practicals</a></li>
             <li><a href="../about.html">About</a></li>
@@ -195,7 +208,7 @@
             <li><a href="../links.html">Links</a></li>
             <li><a href="../how-git-works.html">About GitHub</a></li>
         </ul>
-        <ul class="nav" id="dk">
+        <ul class="nav-practicals" id="nav" id="dk">
             <li>
                 <a href="/html-practicals/p1-table-layout.html"
                     >Practical 1: Table Layout</a
