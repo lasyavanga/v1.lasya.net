@@ -1,0 +1,23 @@
+/* Dark Theme */
+.dark,
+.dark #links a {
+    background-color: black;
+    color: white;
+}
+.dark #links a:hover {
+    background-color: purple;
+    color: yellow;
+}
+
+.dark #switch-theme {
+    border: 2px solid white;
+    background-color: purple;
+    color: yellow;
+}
+
+.dark #logo {
+    background: black;
+}
+.dark a {
+    color: white;
+}

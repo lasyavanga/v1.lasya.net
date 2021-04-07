@@ -28,6 +28,10 @@ const links = [
         link: "photos.html",
     },
     {
+        linkName: "Drawings",
+        link: "drawings.html",
+    },
+    {
         linkName: "Piano",
         link: "piano.html",
     },
@@ -46,10 +50,10 @@ const links = [
 
         </ul>
 */
-
-const nav = document.getElementById("nav");
+const fragment = document.createDocumentFragment();
 
 for (let i = 0; i < links.length; i++) {
+    const nav = document.getElementById("nav-links");
     // Create and set attributes for a
     const a = document.createElement("a");
 
@@ -70,5 +74,8 @@ for (let i = 0; i < links.length; i++) {
     li.appendChild(a);
 
     // Append li in nav
-    nav.appendChild(li);
+    fragment.appendChild(li);
 }
+
+const nav = document.getElementById("nav-links");
+nav.appendChild(fragment);
