@@ -18,17 +18,33 @@ h2 {
 
 #links {
     font-family: "Hammersmith One", sans-serif;
+    flex: 1;
 }
 
 #left {
     display: flex;
     flex-direction: column;
-    border-right: 1px solid hotpink;
-}
-h2 {
-    margin-top: 20px;
+    border-right: 1px solid salmon;
 }
 
+#photos p {
+    float: left;
+    margin-right: 10px;
+}
+#container img {
+    margin: 5px 3px 5px 3px;
+}
+#photos p img {
+    height: 200px;
+}
+
+#photos img {
+    margin: 10px;
+    height: 200px;
+}
+#links {
+    min-width: 230px;
+}
 a {
     color: navy;
 }
@@ -43,14 +59,48 @@ a {
     display: flex;
     flex-direction: column;
     border-left: 1px solid hotpink;
-    padding: 20px;
     font-family: "Balsamiq Sans", cursive;
+    flex: 1;
+}
+#page-title {
+    padding: 20px;
+    border-bottom: 2px solid hotpink;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#container figure {
+    display: table;
+}
+
+#container figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 20px;
+}
+
+#container iframe {
+    margin: 5px;
+}
+
+#container {
+    max-width: 100%;
+}
+
+#page-content {
+    flex: 1;
+    overflow: auto;
+    padding: 20px 0 0 20px;
 }
 
 /* Logo and Links */
 
 #logo {
-    border-bottom: 1px solid green;
+    border-bottom: 2px solid red;
     padding: 20px;
     user-select: none;
 }
@@ -58,7 +108,7 @@ a {
 #links a {
     display: block;
     text-decoration: none;
-    border-bottom: 1px solid green;
+    border-bottom: 2px solid yellowgreen;
     padding: 5px 15px;
     /* transition: all 0.5s linear; */
 }

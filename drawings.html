@@ -2,35 +2,50 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Drawings - Lasya Vanga</title>
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/drawings.css?v=0" />
+        <title>Drawings</title>
+        <link rel="stylesheet" href="css/styles-new.css" />
+        <link rel="stylesheet" href="css/styles.light.css" />
+        <link rel="stylesheet" href="css/styles.dark.css" />
+        <link rel="stylesheet" href="css/drawings.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
             rel="stylesheet"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap"
             rel="stylesheet"
         />
     </head>
     <body>
-        <div class="head">
-            <h1>Lasya Vanga's Website</h1>
-            <h2>DRAWINGS</h2>
-        </div>
+        <div id="page">
+            <div id="left">
+                <div id="logo">
+                    <h1>Lasya Vanga</h1>
+                    <p><a href="https://lasya.net">https://lasya.net</a></p>
+                </div>
 
-        <ul class="nav" id="nav-links"></ul>
-        <p>Here are some of the drawings I drew:</p>
-        <div id="container"></div>
+                <div id="links">
+                    <ul class="nav" id="nav-links"></ul>
+                    <p><button id="switch-theme">Switch Theme</button></p>
+                </div>
+            </div>
+            <div id="right">
+                <div id="page-title">
+                    <h2>Drawings</h2>
+                </div>
+                <div id="page-content">
+                    <ul class="nav" id="nav-links"></ul>
+                    <p>Here are some of the drawings I drew:</p>
+                    <div id="container"></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/nav.js"></script>
+        <script src="js/theme.js"></script>
         <script src="js/drawings.js"></script>
     </body>
-    <script src="js/nav.js"></script>
 </html>

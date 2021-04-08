@@ -2,88 +2,121 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>How Git Works - Lasya Vanga</title>
-        <link rel="stylesheet" href="css/styles.css" />
+        <title>About Github</title>
+        <link rel="stylesheet" href="css/styles-new.css" />
+        <link rel="stylesheet" href="css/styles.light.css" />
+        <link rel="stylesheet" href="css/styles.dark.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
             rel="stylesheet"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap"
             rel="stylesheet"
         />
     </head>
-
     <body>
-        <div class="head">
-            <h1>Lasya Vanga's Website</h1>
-            <h2>HOW GIT WORKS</h2>
-        </div>
+        <div id="page">
+            <div id="left">
+                <div id="logo">
+                    <h1>Lasya Vanga</h1>
+                    <p><a href="https://lasya.net">https://lasya.net</a></p>
+                </div>
 
-        <ul class="nav" id="nav-links"></ul>
-        <p class="git-p">
-            If we want to store our valuables, we go to the bank, if we want to
-            store code, we use Git. There are many places to store code like
-            GitHub, BitBucket, and GitLab. Today, I will show you some things
-            you can do in GitHub.
-        </p>
-        <p class="git-p">
-            Instead of keeping everything messed up, you can organize it. That’s
-            why we use repositories. To create a new repository press New. Then
-            type the name of your repository. The name should not have any
-            spaces, the name should be all lowercase and the name should be
-            hyphen separated. You can add a description but it is optional. You
-            can choose if it should be public or private. Public means that
-            everyone could see it and private means that only you can see it.
-            Then you can add a README page. A README is a page that explains
-            what your project is about.
-        </p>
-        <p class="git-p">
-            If you want to change it from public to private then you can go to
-            Settings &gt; Options, then scroll down to Danger Zone and click
-            Change Visibility.
-        </p>
-        <p class="git-p">
-            If you want to give your repository to someone else, then go to
-            Danger Zone and press Transfer.
-        </p>
-        <p class="git-p">
-            If you want to change your repository access, then go to Danger Zone
-            and press Archive.
-        </p>
-        <p class="git-p">
-            If you want to delete your repository, then go to Danger Zone and
-            press Delete Repository.
-        </p>
-        <p class="git-p">
-            After you create the repository, go to Code &gt; Copy (which is the
-            green button that looks like a clipboard). Then go to Terminal and
-            type &quot;git clone&quot;. After you did that, paste the url in the
-            same line. Then in the next line type git config user.email"Type
-            email here". Then in the next line type git config user.name"Type
-            name here". And then type &quot;git status&quot;. Then type
-            &quot;code .&quot;. This will take you to Visual Studio Code (if it
-            is installed or you will have to install it). Then create a new file
-            and make the changes that you want to make.
-        </p>
-        <p class="git-p">
-            Now, press the button under the magnifying glass on the left. That
-            is where you have to commit all your changes. After that, press the
-            file you made changes on, and see if they seem right. Then press the
-            + next to the file you made changes in. This will add the changes
-            you made. Then press the box and explain what you changed or added.
-            Then go to the Terminal and type &quot;git push&quot;. Then type
-            your user name and your password. This will push the changes you
-            made and make them visible to everyone that can see your
-            repositories. Then repeat all the steps and then make more changes!
-        </p>
+                <div id="links">
+                    <ul class="nav" id="nav-links"></ul>
+                    <p><button id="switch-theme">Switch Theme</button></p>
+                </div>
+            </div>
+            <div id="right">
+                <div id="page-title">
+                    <h2>About GitHub</h2>
+                </div>
+                <div id="page-content">
+                    <ul class="nav" id="nav-links"></ul>
+                    <p class="git-p">
+                        If we want to store our valuables, we go to the bank, if
+                        we want to store code, we use Git. There are many places
+                        to store code like GitHub, BitBucket, and GitLab. Today,
+                        I will show you some things you can do in GitHub.
+                    </p>
+                    <br />
+                    <p class="git-p">
+                        Instead of keeping everything messed up, you can
+                        organize it. That’s why we use repositories. To create a
+                        new repository press New. Then type the name of your
+                        repository. The name should not have any spaces, the
+                        name should be all lowercase and the name should be
+                        hyphen separated. You can add a description but it is
+                        optional. You can choose if it should be public or
+                        private. Public means that everyone could see it and
+                        private means that only you can see it. Then you can add
+                        a README page. A README is a page that explains what
+                        your project is about.
+                    </p>
+                    <br />
+
+                    <p class="git-p">
+                        If you want to change it from public to private then you
+                        can go to Settings &gt; Options, then scroll down to
+                        Danger Zone and click Change Visibility.
+                    </p>
+                    <br />
+
+                    <p class="git-p">
+                        If you want to give your repository to someone else,
+                        then go to Danger Zone and press Transfer.
+                    </p>
+                    <br />
+
+                    <p class="git-p">
+                        If you want to change your repository access, then go to
+                        Danger Zone and press Archive.
+                    </p>
+                    <br />
+
+                    <p class="git-p">
+                        If you want to delete your repository, then go to Danger
+                        Zone and press Delete Repository.
+                    </p>
+                    <br />
+
+                    <p class="git-p">
+                        After you create the repository, go to Code &gt; Copy
+                        (which is the green button that looks like a clipboard).
+                        Then go to Terminal and type &quot;git clone&quot;.
+                        After you did that, paste the url in the same line. Then
+                        in the next line type git config user.email"Type email
+                        here". Then in the next line type git config
+                        user.name"Type name here". And then type &quot;git
+                        status&quot;. Then type &quot;code .&quot;. This will
+                        take you to Visual Studio Code (if it is installed or
+                        you will have to install it). Then create a new file and
+                        make the changes that you want to make.
+                    </p>
+                    <br />
+
+                    <p class="git-p">
+                        Now, press the button under the magnifying glass on the
+                        left. That is where you have to commit all your changes.
+                        After that, press the file you made changes on, and see
+                        if they seem right. Then press the + next to the file
+                        you made changes in. This will add the changes you made.
+                        Then press the box and explain what you changed or
+                        added. Then go to the Terminal and type &quot;git
+                        push&quot;. Then type your user name and your password.
+                        This will push the changes you made and make them
+                        visible to everyone that can see your repositories. Then
+                        repeat all the steps and then make more changes!
+                    </p>
+                </div>
+            </div>
+        </div>
         <script src="js/nav.js"></script>
+        <script src="js/theme.js"></script>
     </body>
 </html>

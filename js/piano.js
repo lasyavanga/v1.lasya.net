@@ -28,7 +28,6 @@ const videos = [
 ];
 
 // Get reference to the container
-const container = document.getElementById("container");
 const iframeAttrs = {
     width: "480",
     height: "270",
@@ -40,25 +39,30 @@ const iframeAttrs = {
     allowfullscreen: "allowfullscreen",
 };
 
-for (let i = 0; i < videos.length; i++) {
-    const figcaption = document.createElement("figcaption");
-    figcaption.textContent = videos[i].caption;
+(function () {
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < videos.length; i++) {
+        const figcaption = document.createElement("figcaption");
+        figcaption.textContent = videos[i].caption;
 
-    const iframeEl = document.createElement("iframe");
-    /*
-     */
-    iframeEl.setAttribute("width", iframeAttrs.width);
-    iframeEl.setAttribute("height", iframeAttrs.height);
-    iframeEl.setAttribute("src", iframeAttrs.src + videos[i].link);
-    iframeEl.setAttribute("title", videos[i].caption);
-    iframeEl.setAttribute("frameborder", iframeAttrs.frameborder);
-    iframeEl.setAttribute("allow", iframeAttrs.allow);
-    iframeEl.setAttribute("allowfullscreen", iframeAttrs.allowfullscreen);
+        const iframeEl = document.createElement("iframe");
+        /*
+         */
+        iframeEl.setAttribute("width", iframeAttrs.width);
+        iframeEl.setAttribute("height", iframeAttrs.height);
+        iframeEl.setAttribute("src", iframeAttrs.src + videos[i].link);
+        iframeEl.setAttribute("title", videos[i].caption);
+        iframeEl.setAttribute("frameborder", iframeAttrs.frameborder);
+        iframeEl.setAttribute("allow", iframeAttrs.allow);
+        iframeEl.setAttribute("allowfullscreen", iframeAttrs.allowfullscreen);
 
-    const figure = document.createElement("figure");
+        const figure = document.createElement("figure");
 
-    figure.appendChild(iframeEl);
-    figure.appendChild(figcaption);
+        figure.appendChild(iframeEl);
+        figure.appendChild(figcaption);
+        fragment.appendChild(figure);
+    }
 
-    container.appendChild(figure);
-}
+    const container = document.getElementById("container");
+    container.appendChild(fragment);
+})();

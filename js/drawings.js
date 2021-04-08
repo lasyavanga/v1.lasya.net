@@ -261,50 +261,25 @@ const drawings = [
     { src: "0071-city.jpg", alt: "City", caption: "City" },
 ];
 
-for (let i = 0; i < drawings.length; i++) {
+(function () {
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < drawings.length; i++) {
+        const c = "compressed-drawings/";
+
+        const img = document.createElement("img");
+        img.src = c + drawings[i].src;
+        img.alt = drawings[i].alt;
+        img.style.maxHeight = "300px";
+        img.style.maxWidth = "400px";
+
+        const figcaption = document.createElement("figcaption");
+        figcaption.textContent = drawings[i].caption;
+        const figure = document.createElement("figure");
+        figure.appendChild(img);
+        figure.appendChild(figcaption);
+        fragment.appendChild(figure);
+    }
+
     const container = document.getElementById("container");
-
-    const c = "compressed-drawings/";
-
-    const img = document.createElement("img");
-    img.src = c + drawings[i].src;
-    img.alt = drawings[i].alt;
-    img.style.height = "400px";
-
-    const figcaption = document.createElement("figcaption");
-    figcaption.textContent = drawings[i].caption;
-    const figure = document.createElement("figure");
-    figure.appendChild(img);
-    container.appendChild(figure);
-    figure.appendChild(figcaption);
-}
-
-// Create a variable to store final data
-// let data = [];
-
-// Get reference to drawings UL
-// let ul = document.getElementById('drawings');
-
-// Now find all lis inside the above UL
-// let lis = ul.getElementsByTagName('li');
-
-// Now iterate on each li
-// for(let i = 0; i < lis.length; i++) {
-
-// This is the li
-//     const li = lis[i];
-
-// Get image
-//     const img = li.getElementsByTagName('img')[0];
-
-// Get caption element
-//     const cap = li.getElementsByClassName('caption')[0];
-
-//     data.push({
-//         src: img.src.replace("https://lasya.net/compressed-drawings/", ""),
-//         alt: img.alt,
-//         caption: cap.textContent
-//     })
-// }
-
-// console.log(JSON.stringify(data));
+    container.appendChild(fragment);
+})();
