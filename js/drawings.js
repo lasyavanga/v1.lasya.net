@@ -264,7 +264,7 @@ const drawings = [
 (function () {
     const fragment = document.createDocumentFragment();
     for (let i = 0; i < drawings.length; i++) {
-        const c = "compressed-drawings/";
+        const c = "/compressed-drawings/";
 
         const img = document.createElement("img");
         img.src = c + drawings[i].src;

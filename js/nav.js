@@ -1,47 +1,47 @@
 const links = [
     {
         linkName: "Home",
-        link: "index.html",
+        link: "/index.html",
     },
     {
         linkName: "About",
-        link: "about.html",
+        link: "/pages/about.html",
     },
     {
         linkName: "Education",
-        link: "education.html",
+        link: "/pages/education.html",
     },
     {
         linkName: "Links",
-        link: "links.html",
+        link: "/pages/links.html",
     },
     {
         linkName: "Photos",
-        link: "photos.html",
+        link: "/pages/photos.html",
     },
     {
         linkName: "Drawings",
-        link: "drawings.html",
+        link: "/pages/drawings.html",
     },
     {
         linkName: "Piano",
-        link: "piano.html",
+        link: "/pages/piano.html",
     },
     {
         linkName: "Places Visited",
-        link: "places-visited.html",
+        link: "/pages/places-visited.html",
     },
     {
         linkName: "HTML Practicals",
-        link: "html-practicals",
+        link: "/pages/html-practicals",
     },
     {
         linkName: "About Github",
-        link: "how-git-works.html",
+        link: "/pages/how-git-works.html",
     },
     {
         linkName: "Contact",
-        link: "contact.html",
+        link: "/pages/contact.html",
     },
 ];
 
@@ -52,12 +52,6 @@ const links = [
         const nav = document.getElementById("nav-links");
         // Create and set attributes for a
         const a = document.createElement("a");
-
-        const hrefs = [
-            {
-                href: links.link,
-            },
-        ];
 
         a.textContent = links[i].linkName;
 
