@@ -12,10 +12,6 @@ const links = [
         link: "education.html",
     },
     {
-        linkName: "About Github",
-        link: "how-git-works.html",
-    },
-    {
         linkName: "Links",
         link: "links.html",
     },
@@ -38,6 +34,10 @@ const links = [
     {
         linkName: "HTML Practicals",
         link: "html-practicals",
+    },
+    {
+        linkName: "About Github",
+        link: "how-git-works.html",
     },
     {
         linkName: "Contact",
