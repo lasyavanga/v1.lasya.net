@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Table Layout</title>
-        <link rel="stylesheet" href="/css/styles.css" />
         <a href="index.html" class="nav" id="nav">Back to Main Page</a>
 
         <link
@@ -17,6 +16,34 @@
             rel="stylesheet"
         />
         <style>
+            html {
+                background-image: url(/patterns/paisley.png);
+                padding: 0;
+                padding-left: 0px;
+            }
+            h1 {
+                color: firebrick;
+                text-shadow: 2px 5px 3px gray;
+                font-weight: bolder;
+                font-family: "Roboto Condensed", cursive;
+                text-align: center;
+                font-size: 40px;
+                margin: 0;
+            }
+            table,
+            tr,
+            th,
+            td {
+                border: 1px solid black;
+                text-align: center;
+                padding: 7px;
+            }
+
+            table {
+                margin: auto;
+                border-collapse: collapse;
+            }
+
             a:hover {
                 background-color: purple;
                 color: lightblue;
