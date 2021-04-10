@@ -36,6 +36,10 @@ const links = [
         link: "/pages/html-practicals",
     },
     {
+        linkName: "CSS Practicals",
+        link: "/pages/css-practicals/",
+    },
+    {
         linkName: "About Github",
         link: "/pages/how-git-works.html",
     },
