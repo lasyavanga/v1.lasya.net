@@ -259,6 +259,36 @@ const drawings = [
     { src: "0069-pumpkin.jpg", alt: "Cotton Candy", caption: "Pumpkin" },
     { src: "0070-leaf.jpg", alt: "Leaf", caption: "Leaf" },
     { src: "0071-city.jpg", alt: "City", caption: "City" },
+    {
+        src: "0072-girl-holding-earth.jpg",
+        alt: "Girl Holding the Earth",
+        caption: "Girl Holding the Earth",
+    },
+    {
+        src: "0073-minecraft-horse.jpg",
+        alt: "Minecraft Horse",
+        caption: "Minecraft Horse",
+    },
+    {
+        src: "0074-girl.jpg",
+        alt: "Girl",
+        caption: "Girl",
+    },
+    {
+        src: "0075-charlotes-web.jpg",
+        alt: "Wilbur and Charlotte",
+        caption: "Wilbur and Charlotte",
+    },
+    {
+        src: "0076-girl-leprachaun.jpg",
+        alt: "Girl Leprechaun",
+        caption: "Girl Leprechaun",
+    },
+    {
+        src: "0077-zoom.jpg",
+        alt: "Students in a zoom meeting",
+        caption: "Students in a zoom meeting",
+    },
 ];
 
 (function () {
