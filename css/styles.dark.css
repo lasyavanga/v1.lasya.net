@@ -15,9 +15,29 @@
     color: yellow;
 }
 
+.dark #heading #switch-theme,
+.dark #heading h3,
+.dark #heading a,
+.dark #heading span {
+    border: 0px solid black;
+    background-color: #023047;
+    color: #caf0f8;
+}
+
+.dark #heading #switch-theme:hover,
+.dark #heading #switch-theme:focus,
+.dark #heading #switch-theme:active,
+.dark #heading #switch-theme:link {
+    cursor: pointer;
+}
+
 .dark #logo {
     background: black;
 }
 .dark a {
     color: white;
+}
+
+.dark #go-back {
+    color: #023047;
 }

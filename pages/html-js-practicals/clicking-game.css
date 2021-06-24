@@ -1,26 +1,27 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body {
-    background-color: #457b9d;
+    background-color: #457b9d /*081c15*/;
 }
 
 #heading {
-    background-color: #e63946;
-    border-bottom: 8px solid #e9d8a6;
+    background-color: #caf0f8;
+    border-bottom: 8px solid #03045e;
     padding-bottom: 12px;
 }
 
 h1 {
     font-family: "Righteous", cursive;
-    margin-right: 150px;
-    color: #f1faee;
+    margin-right: 10px;
+    color: #1b4332;
     display: inline-block;
     padding: 10px;
-    margin-bottom: 0px;
-    border-radius: 0px;
+    margin-top: 5px;
+    margin-right: 100px;
 }
 
 #circle {
@@ -28,8 +29,8 @@ h1 {
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 8px solid #fec5bb;
-    background-color: #fec5bb;
+    border: 8px solid #90e0ef;
+    background-color: #90e0ef;
 }
 
 span {
@@ -42,14 +43,43 @@ h3 {
     color: #023047;
     text-align: center;
     margin: 12px;
-    background-color: #fdffb6;
+    background-color: #90e0ef;
     display: inline-block;
+    border: 2px solid #023047;
     border-radius: 20px;
     padding: 10px;
-    width: 150px;
+    width: fit-content;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 a {
     text-decoration: none;
+    color: #023047;
+}
+
+button {
+    font-family: "Fredoka One", cursive;
+    color: #023047;
+    font-size: 17px;
+    text-align: center;
+    margin: 12px;
+    background-color: #90e0ef;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    display: inline-block;
+}
+
+button:hover,
+button:focus,
+button:active,
+button:link {
+    cursor: pointer;
 }
