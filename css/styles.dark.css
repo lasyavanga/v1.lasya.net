@@ -41,3 +41,14 @@
 .dark #go-back {
     color: #023047;
 }
+
+.dark #heading h1 {
+    color: #e63946;
+}
+.dark #heading {
+    background-color: #470710;
+}
+/*  class="heading-content" */
+.dark #circle {
+    background-color: #f20089;
+}

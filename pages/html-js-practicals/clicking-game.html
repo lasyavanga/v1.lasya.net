@@ -17,26 +17,37 @@
         />
     </head>
     <body>
-        <div id="heading">
-            <h1>Clicking Game</h1>
-            <h3 id="total-clicks">
+        <div id="heading" class="body-content">
+            <h1 class="heading-content">Clicking Game</h1>
+
+            <h3 id="total-clicks" class="heading-content">
                 <span>Total Clicks: </span>
                 <span id="total-clicks-value">0</span>
             </h3>
-            <h3 id="correct-clicks">
+
+            <h3 id="correct-clicks" class="heading-content">
                 <span>Correct Clicks:</span>
                 <span id="correct-clicks-value">0</span>
             </h3>
-            <h3 id="wrong-clicks">
+            <h3 id="wrong-clicks" class="heading-content">
                 <span>Wrong Clicks: </span>
                 <span id="wrong-clicks-value">0</span>
             </h3>
-            <h3 id="score"><span>Score = </span>18</h3>
-            <h3><a id="go-back" href="/index.html">Go Back</a></h3>
-            <p><button id="switch-theme">Switch Theme</button></p>
+
+            <h3 id="score" class="heading-content">
+                <span>Score = </span>
+                <span id="score-value">0</span>
+            </h3>
+
+            <h3 class="heading-content">
+                <a id="go-back" href="/index.html">Go Back</a>
+            </h3>
+            <p class="heading-content">
+                <button id="switch-theme">Switch Theme</button>
+            </p>
         </div>
 
-        <div id="circle-div">
+        <div id="circle-div" class="body-content">
             <div id="circle"></div>
         </div>
         <script src="/js/theme.js"></script>
