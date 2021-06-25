@@ -1,55 +1,55 @@
 const links = [
   {
     linkName: "Home",
-    link: "/index.html",
+    link: "/index.html?v=1",
   },
   {
     linkName: "About",
-    link: "/pages/about.html",
+    link: "/pages/about.html?v=1",
   },
   {
     linkName: "Education",
-    link: "/pages/education.html",
+    link: "/pages/education.html?v=1",
   },
   {
     linkName: "Links",
-    link: "/pages/links.html",
+    link: "/pages/links.html?v=1",
   },
   {
     linkName: "Photos",
-    link: "/pages/photos.html",
+    link: "/pages/photos.html?v=1",
   },
   {
     linkName: "Drawings",
-    link: "/pages/drawings.html",
+    link: "/pages/drawings.html?v=1",
   },
   {
     linkName: "Piano",
-    link: "/pages/piano.html",
+    link: "/pages/piano.html?v=1",
   },
   {
     linkName: "Places Visited",
-    link: "/pages/places-visited.html",
+    link: "/pages/places-visited.html?v=1",
   },
   {
     linkName: "HTML Practicals",
-    link: "/pages/html-practicals",
+    link: "/pages/html-practicals?v=1",
   },
   {
     linkName: "CSS Practicals",
-    link: "/pages/css-practicals/",
+    link: "/pages/css-practicals/?v=1",
   },
   {
     linkName: "About Github",
-    link: "/pages/how-git-works.html",
+    link: "/pages/how-git-works.html?v=1",
   },
   {
     linkName: "Clicking Game",
-    link: "/pages/html-js-practicals/clicking-game.html",
+    link: "/pages/html-js-practicals/clicking-game.html?v=1",
   },
   {
     linkName: "Contact",
-    link: "/pages/contact.html",
+    link: "/pages/contact.html?v=1",
   },
 ];
 
