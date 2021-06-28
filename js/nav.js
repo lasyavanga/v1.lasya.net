@@ -44,8 +44,8 @@ const links = [
         link: "/pages/how-git-works.html?v=1",
     },
     {
-        linkName: "Clicking Game",
-        link: "/pages/html-js-practicals/clicking-game.html?v=1",
+        linkName: "My Code",
+        link: "/pages/my-code.html?v=1",
     },
     {
         linkName: "Contact",
