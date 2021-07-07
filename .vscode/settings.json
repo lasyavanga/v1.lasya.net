@@ -3,5 +3,6 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.wordWrap": "on"
 }
