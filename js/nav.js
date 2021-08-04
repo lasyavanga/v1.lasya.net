@@ -48,6 +48,10 @@ const links = [
         link: "/pages/my-code.html?v=1",
     },
     {
+        linkName: "Tips & Tricks",
+        link: "/pages/tips-and-tricks.html?v=1",
+    },
+    {
         linkName: "Contact",
         link: "/pages/contact.html?v=1",
     },
