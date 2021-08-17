@@ -64,6 +64,10 @@ h3 {
     font-weight: normal;
 }
 
+#tips-and-tricks-ul li {
+    padding-bottom: 15px;
+}
+
 #logo a {
     text-decoration: none;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
