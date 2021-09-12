@@ -44,8 +44,8 @@ const links = [
         link: "/pages/how-git-works.html?v=1",
     },
     {
-        linkName: "My Code",
-        link: "/pages/my-code.html?v=1",
+        linkName: "Projects",
+        link: "/pages/projects.html?v=1",
     },
     {
         linkName: "Tips & Tricks",
