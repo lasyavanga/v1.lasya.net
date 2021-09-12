@@ -167,18 +167,18 @@ h3 {
     margin-top: 5px;
 }
 
-#content {
+.content {
     margin-left: 40px;
 }
 
 h4 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-#content p {
+content p {
     margin-bottom: 3px;
 }
 
-#last {
+.last {
     margin-bottom: 75px;
 }
