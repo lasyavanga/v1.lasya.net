@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/sasidhar/Lasya.net#readme",
     "dependencies": {
-        "imagemin-cli": "^6.0.0",
+        "imagemin-cli": "^8.0.0",
         "imagemin-mozjpeg": "^9.0.0"
     }
 }
